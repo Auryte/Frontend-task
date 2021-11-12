@@ -1,0 +1,73 @@
+.AccordionItem {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 1360px;
+}
+
+.AccordionItemTitle {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.AccordionItemBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border: 0;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 3px 3px 15px #00000031;
+  margin-top: 20px;
+}
+.AccordionItemBtn p{
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;;
+}
+.AccordionItemBtn img{
+  padding-right: 36px;
+}
+.Radio{
+  padding-left: 30px;
+}
+
+.AccordionItemContainer {
+  transition: height 0.4s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}
+hr{
+  border-top: 2px solid #00ADAA;
+  width: 200px;
+  margin: 0;
+  transition: width 0.4s ease-in-out;
+ }
+ .HrGrow{
+  width: 300px;
+  transition: width 0.4s ease-in-out;
+}
+.AccordionItemContent {
+  padding: 10px 20px 0 20px;
+}
+
+.AccordionItemLine{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+.AccordionItemLine p{
+ padding-left: 20px;
+ font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+}
+.AccordionEmail{
+  color: #00ADAA;
+  text-decoration: none;
+}

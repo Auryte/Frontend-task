@@ -1,0 +1,25 @@
+.App h1{
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 87px;
+  margin: 30px auto 10px;
+  padding-left: 20px;
+  text-align: left;
+  width: 1400px;
+}
+.Accordion {
+  list-style: none;
+  margin: auto;
+  padding: 0 0 20px 20px;
+  width: 1400px;
+  height: auto;
+  box-shadow: 3px 3px 15px #00000031;
+}
+.AccordionItem{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.AccordionItemImg{
+  padding-left: 20px;
+}
